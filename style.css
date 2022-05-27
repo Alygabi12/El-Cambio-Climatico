@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: #ffffc2;
+  color: brown;
+  background-color: #f7ca7e;
+}
+
+.Titulo{
+  text-align: center;
+}
+
+.Contenido{
+  display: flex;
+  flex-direction: row;
+}
+
+.Índice{
+  background-color: #ececb6;
+  min-width: 100px;
+  height: 550px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Escrito{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.Parte2{
+  background-color: #ececb6;
+  height: 100%;
+  width: auto;
+  margin-right: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+img{
+  max-height: 400px;
+  max-width: 400px;
+  min-height: 200px;
+  min-width: 200px;
+  align-self: center;
+  margin-bottom: 0;
+}
